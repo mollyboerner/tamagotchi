@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: pink;
+}
+
+.ghost {
+  color: #f5e7c2;
+  background: #5f5d5d;
+}
+
+#petPic, #ghostPet{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#petPic{
+  background: white;
+  border: 10px solid #ffaea8;
+}
+
+#ghostPet{
+  background: #c8c1c1;
+  border: 10px solid #000000;
+}
+
+img{
+  width: 80%;
+}
+
+#speaking{
+  text-align: center;
+}
+
+#answers{
+  text-align: center;
+}
+
+#tip{
+  font-size: 20px;
+}
+
+#deathCount{
+  font-size: 20px;
+  text-align: center;
+}
